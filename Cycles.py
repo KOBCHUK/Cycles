@@ -1,4 +1,4 @@
-begin = int(input('Enter a begin: '))
-end = int(input('Enter an end: '))
-for i in range(begin, end+1):
-    print(i)
+a = int(input('Enter a number a: '))
+b = int(input('Enter a number b: '))
+for i in range(a, b+1):
+    print(i, end = "\t")
