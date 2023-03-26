@@ -1,8 +1,8 @@
-begin = int(input('Enter a begin: '))
-end = int(input('Enter an end: '))
+a = int(input('Enter a number a: '))
+b = int(input('Enter a number b: '))
 
-for i in range(begin, end+1):
+for i in range(a, b+1):
         if i%2 ==1:
-             print(i)
+            print(i, end = "\t")
         
 
